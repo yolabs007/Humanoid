@@ -1,3 +1,7 @@
+/* you must install the Library  PubSubClient by Nick'o leary   */
+
+
+
 #include <WiFi.h>
 #include <PubSubClient.h>
 
