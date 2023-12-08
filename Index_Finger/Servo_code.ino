@@ -1,5 +1,5 @@
 /* Move the INDEX finger 
-  This code is written to check if the index finger assembly is working to ints perfection. 
+  This code is written to check if the index finger assembly is working to its perfection. 
   
   Connections 
   Servo  -            ESP32 
@@ -13,6 +13,7 @@
   by Rahul Sharma for Yolabs 
   This example code is in the public domain.
   https://www.yolabs.in
+  updated on - 8th dec 2023 
 */
 
 #include <Servo.h>
@@ -22,8 +23,8 @@ Servo servo_2;  //create a servo object
 int angle = 0;   // servo position in degrees 
 
 int atrest_angle = 0;
-int atmid_angle = 90;
-int atclose_angle = 180;
+int atmid_angle = 70;
+int atclose_angle = 140;
 
  
 
