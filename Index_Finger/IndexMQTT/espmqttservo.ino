@@ -1,19 +1,28 @@
-
-
-
-
-
-
-
-
-
+/* Move the INDEX finger 
+  This code is written to check if the index finger assembly is working to its perfection. 
+  
+  Connections 
+  Servo  -            ESP32 
+  Brown -             Ground
+  Red   -             3v3
+  Orange/Yellow  -    Digital pin - D4 in this code 
+  
+  NOTE : If your servo need to take a good load or if you are connecting multiple servo,  
+  you will  need external power supply with/without servo controller board               
+  
+  by Rahul Sharma for Yolabs 
+  This example code is in the public domain. Noe for Servo Control please use ServoESP32 library 
+  https://www.yolabs.in
+  updated on - 10th march 2024 
+Note: ESP32 are not known for their wifi range so keep esp close to HOTSPOT 
+*/
 
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Servo.h>
 
-const char* ssid = "rahul2g";
-const char* password = "7338321713";
+const char* ssid = "rahul2g";     // change with ur SSID
+const char* password = "123456789"; //change with your password try to keep it simple  and 9 digits to avoid mistake 
 const char* mqtt_server = "mqtt.eclipseprojects.io";
 
 WiFiClient espClient;
