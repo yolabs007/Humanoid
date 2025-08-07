@@ -1,3 +1,27 @@
+/*
+This code works on one- way BLE comunication 
+You will require a servo connected to ESP32...... 
+Note : check the version of servo library version  is working by running a standard servo sweep code 
+
+1. Step 1- Upload the code into ESP32 
+2. Servo Connections 
+   
+   ESP           Servo 
+
+  Vin -          Servo power ( middle wire)
+  GND -          GND - Dark brown or black wire  
+  D4  -          Signal - Yellow/Orange Wire 
+
+2. Run the python code in your computer - BLE_senderAngle.py
+3. send any angle  command from your python code input terminal 
+4. Observ the servo changing its position 
+This code is written by - Rahul Sharma for Yolabs on - 7th Aug'25 
+*/
+
+
+
+
+
 #include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>
