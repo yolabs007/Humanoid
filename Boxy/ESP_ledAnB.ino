@@ -5,6 +5,7 @@ You do not require any other peripheral except a code - BLE_senderAnB.py running
 2. Run the python code in your computer 
 3. send a and b command from your python code input terminal 
 4. see the light going on and off 
+This code is written by - Rahul Sharma for Yolabs on - 7th Aug'25 
 */
 
 #include <BLEDevice.h>
